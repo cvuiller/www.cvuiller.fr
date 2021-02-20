@@ -1,0 +1,33 @@
+    <title itemprop="name">{{ .Site.Params.personal.name }} | {{ .Site.Title }}</title>
+    <meta property="og:title" content="{{ .Site.Params.personal.name }} | {{ .Site.Title }}" />
+    <meta name="twitter:title" content="{{ .Site.Params.personal.name }} | {{ .Site.Title }}" />
+    <meta itemprop="name" content="{{ .Site.Params.personal.name }} | {{ .Site.Title }}" />
+    <meta name="application-name" content="{{ .Site.Params.personal.name }} | {{ .Site.Title }}" />
+    <meta property="og:site_name" content="{{ .Site.Params.personal.name }} | {{ .Site.Title }}" />
+    <meta name="description" content="{{ .Site.Params.description }}" />
+    <meta itemprop="description" content="{{ .Site.Params.description }}" />
+    <meta property="og:description" content="{{ .Site.Params.description }}" />
+    <meta name="twitter:description" content="{{ .Site.Params.description }}" />
+    <base href="{{ .Permalink }}">
+    <link rel="canonical" href="{{ .Permalink }}" itemprop="url" /> 
+    <meta name="url" content="{{ .Permalink }}" />
+    <meta name="twitter:url" content="{{ .Permalink }}" /> 
+    <meta property="og:url" content="{{ .Permalink }}" />
+    <meta property="og:locale" content="{{ .Language.Lang }}">
+    <meta name="language" content="{{ .Language.LanguageName }}">
+    <meta itemprop="image" content="{{ .Site.Params.personal.avatar | printf "/images/avatars/%s" | absURL  }}" />
+    <meta property="og:image" content="{{ .Site.Params.personal.avatar | printf "/images/avatars/%s" | absURL  }}" />
+    <meta name="twitter:image" content="{{ .Site.Params.personal.avatar | printf "/images/avatars/%s" | absURL  }}" />
+    <meta name="twitter:image:src" content="{{ .Site.Params.personal.avatar | printf "/images/avatars/%s" | absURL  }}" /> 
+    <meta property="og:updated_time" content={{ .Lastmod.Format "2006-01-02T15:04:05Z0700" | safeHTML }} />
+    <meta property="og:type" content="website" /> 
+    <meta name="author" content="{{ .Site.Params.personal.name }}" />
+    <script defer type="application/ld+json">
+      { 
+        "@context": "http://schema.org", 
+        "@type": "WebSite", 
+        "url": "{{ .Permalink }}", 
+        "name": "{{ .Title }}", 
+        "logo": "{{ .Site.Params.personal.avatar | printf "/images/avatars/%s" | absURL  }}"
+      }
+    </script>

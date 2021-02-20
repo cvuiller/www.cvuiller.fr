@@ -1,0 +1,13 @@
+        <footer id="footer">
+          <ul class="copyright">
+            <li>&copy; 
+              {{ .Site.Params.personal.name }}
+            </li>
+            {{ with .Site.Params.license }}<li>
+                <a href="{{ .link }}">{{ .name }}</a>
+            </li>{{ end }}
+          </ul>
+          {{ with .Site.Params.credits }}<ul class="credit copyright">{{ range . }}
+            <li>{{ .text }} <a href="{{ .link }}">{{ .title }}</a></li>{{ end }}
+          </ul>{{ end }} 
+        </footer>
