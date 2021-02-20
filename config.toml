@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://www.cvuiller.fr" #without ending slash
+baseurl = "http://gh.cvuiller.fr" #without ending slash
 languageCode = "en-us"
 title = "Curriculum vitæ"
 theme = "my-hugo-identity-theme"
@@ -43,7 +43,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
     # Avatars can be written to images/avatars/
     avatar = "avatar.jpg"
     position = "Network & Computer Science engineer"
-    
+
   # Social settings
   # You may change these with your social links or add others
 
