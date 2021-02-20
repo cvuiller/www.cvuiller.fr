@@ -1,0 +1,94 @@
+# Site settings
+baseurl = "https://www.cvuiller.fr" #without ending slash
+languageCode = "en-us"
+title = "Curriculum vitæ"
+theme = "my-hugo-identity-theme"
+
+# Disable unnecessary kinds
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
+
+# Enter your tracking code to enable Google Analytics
+#googleAnalytics = "UA-XXXXX-Y"
+
+[params]
+
+  og_image = "/images/avatar/avatar.jpg"
+  description = "Ingénieur Informatique et Réseaux, je suis passionné par les nouvelles technologies, et très curieux de découvrir le fonctionnement du monde dans lequel nous vivons."
+  title = "Curriculum vitæ"
+
+
+  # Images settings
+  # Icons, backgrounds and avatars folders are placed in theme's static/images folder.
+  # You may place your images in corresponding folders and then set only filenames below to
+  # change page's appearance
+
+  # Site icons
+  favicon_ico = "favicon.ico"
+
+  # Additional options to supplement icons served
+  #favicon_png = "favicon.png"
+  #favicon_png_sizes = "96x96"
+  #favicon_svg = "favicon.svg"
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    languageCode = "en-us"
+    weight = 1
+
+  # Personal data
+  [params.personal]
+    # If name is not set, author is used
+    name = "Clément Vuillermoz"
+    # Avatars can be written to images/avatars/
+    avatar = "avatar.jpg"
+    position = "Network & Computer Science engineer"
+    
+  # Social settings
+  # You may change these with your social links or add others
+
+  [[params.social]]
+    title = "LinkedIn"
+    icon = "fa-linkedin"
+    link = "https://www.linkedin.com/in/clementvuillermoz/"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Keybase"
+    icon = "fa-key"
+    link = "https://keybase.io/cvuiller/"
+    target = "_blank"
+
+  [[params.social]]
+    title = "CV"
+    icon = "fa-download"
+    link = "CV_VUILLERMOZ.pdf"
+    target = "_blank"
+
+  [[params.social]]
+    title = "Email"
+    icon = "fa-envelope"
+    link = "mailto:contact@cvuiller.fr"
+    target = "_blank"
+
+  # Page license
+  [params.license]
+    link = "https://creativecommons.org/licenses/by-sa/4.0/legalcode"
+    name = "CC-BY-SA-4.0"
+
+  # Credits
+  [[params.credits]]
+    # Title is used as URL text
+    title = "HTML5UP"
+    # Text will be used to explain the credit
+    text = "Design by"
+    link = "https://html5up.net"
+
+  # Optional piwik tracking
+  #[params.analytics.piwik]
+  #  URL = "https://stats.example.com"
+  #  ID = "42"
+  #  # Track all subdomains with "*.example.com"
+  #  domain = "www.example.com"
+  #  # Optional integrity check hash
+  #  hash = "sha512-RfeD0pacGTqy9m7U6PgehQfS4cc7SIt+e+P+H5e848kEvB/RW84CUGO3O4O3LNbxjevym6KPUZ8muPsMrI8WIw=="
