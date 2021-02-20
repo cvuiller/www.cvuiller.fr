@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://gh.cvuiller.fr" #without ending slash
+baseurl = "https://gh.cvuiller.fr" #without ending slash
 languageCode = "en-us"
 title = "Curriculum vitæ"
 theme = "my-hugo-identity-theme"
