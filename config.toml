@@ -3,7 +3,6 @@ baseurl = "https://gh.cvuiller.fr" #without ending slash
 languageCode = "en-us"
 title = "Curriculum vitæ"
 theme = "my-hugo-identity-theme"
-enableGitInfo = true
 
 # Disable unnecessary kinds
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
@@ -13,8 +12,7 @@ disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap",
 
 [params]
 
-  og_image = "/images/avatar/avatar.jpg"
-  description = "Ingénieur Informatique et Réseaux, je suis passionné par les nouvelles technologies, et très curieux de découvrir le fonctionnement du monde dans lequel nous vivons."
+  description = "Personal page of Clément Vuillermoz, network and computer science engineer"
   title = "Curriculum vitæ"
 
 
