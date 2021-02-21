@@ -1,0 +1,6 @@
+User-agent: *
+
+Allow: /doc/CV_VUILLERMOZ.pdf
+
+Disallow: /images/*
+Disallow: /assets/*
