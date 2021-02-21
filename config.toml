@@ -3,6 +3,7 @@ baseurl = "https://gh.cvuiller.fr" #without ending slash
 languageCode = "en-us"
 title = "Curriculum vitæ"
 theme = "my-hugo-identity-theme"
+enableGitInfo = true
 
 # Disable unnecessary kinds
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"]
