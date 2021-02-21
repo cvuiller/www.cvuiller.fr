@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/cvuiller
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.cvuiller.fr
+  * I am cvuiller (https://keybase.io/cvuiller) on keybase.
+  * I have a public key ASBvVPuTRVsJMHoSjxZQZmMEzT_KGid0_EONhUNzuYzn1wo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01206f54fb93455b09307a128f1650666304cd3fca1a2774fc438d854373b98ce7d70a",
+      "host": "keybase.io",
+      "kid": "01206f54fb93455b09307a128f1650666304cd3fca1a2774fc438d854373b98ce7d70a",
+      "uid": "3134d47e9a66703c511504d5f2b46919",
+      "username": "cvuiller"
+    },
+    "merkle_root": {
+      "ctime": 1512128824,
+      "hash": "7b17c0974774ae3de3174f6e1bf45fcba83f2d3e411018595488cae7d36aac488131ad3edcbb2459c08b657d6daa6092803c8d9b7bc54b5649975dea038a42b1",
+      "hash_meta": "5eb3e75a7c97000be104809024a90bbe34c2dc3989ab9762e2a7fd8732bb2165",
+      "seqno": 1768662
+    },
+    "service": {
+      "hostname": "www.cvuiller.fr",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.36"
+  },
+  "ctime": 1512128897,
+  "expire_in": 504576000,
+  "prev": "3d520b9a2fac4fcdc6b0e6ac930d820758beaaf578ccd6addbe946a4d89187ee",
+  "seqno": 7,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgb1T7k0VbCTB6Eo8WUGZjBM0/yhondPxDjYVDc7mM59cKp3BheWxvYWTFA0d7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNmY1NGZiOTM0NTViMDkzMDdhMTI4ZjE2NTA2NjYzMDRjZDNmY2ExYTI3NzRmYzQzOGQ4NTQzNzNiOThjZTdkNzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNmY1NGZiOTM0NTViMDkzMDdhMTI4ZjE2NTA2NjYzMDRjZDNmY2ExYTI3NzRmYzQzOGQ4NTQzNzNiOThjZTdkNzBhIiwidWlkIjoiMzEzNGQ0N2U5YTY2NzAzYzUxMTUwNGQ1ZjJiNDY5MTkiLCJ1c2VybmFtZSI6ImN2dWlsbGVyIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTEyMTI4ODI0LCJoYXNoIjoiN2IxN2MwOTc0Nzc0YWUzZGUzMTc0ZjZlMWJmNDVmY2JhODNmMmQzZTQxMTAxODU5NTQ4OGNhZTdkMzZhYWM0ODgxMzFhZDNlZGNiYjI0NTljMDhiNjU3ZDZkYWE2MDkyODAzYzhkOWI3YmM1NGI1NjQ5OTc1ZGVhMDM4YTQyYjEiLCJoYXNoX21ldGEiOiI1ZWIzZTc1YTdjOTcwMDBiZTEwNDgwOTAyNGE5MGJiZTM0YzJkYzM5ODlhYjk3NjJlMmE3ZmQ4NzMyYmIyMTY1Iiwic2Vxbm8iOjE3Njg2NjJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoid3d3LmN2dWlsbGVyLmZyIiwicHJvdG9jb2wiOiJodHRwczoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMzYifSwiY3RpbWUiOjE1MTIxMjg4OTcsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJwcmV2IjoiM2Q1MjBiOWEyZmFjNGZjZGM2YjBlNmFjOTMwZDgyMDc1OGJlYWFmNTc4Y2NkNmFkZGJlOTQ2YTRkODkxODdlZSIsInNlcW5vIjo3LCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQE79mASeXyCQaWpg+xjxckr0EKZ5LzRe7kOOEw8X7OLQI/es4FBMzaYb0oU6i94QRYKXAAnNu7zlHkqV7N1YBAeoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCAabRHVGYf35X1fz2ldQL8mAfkI1TMvx8Ex4EhI8soGgqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/cvuiller
+
+==================================================================
